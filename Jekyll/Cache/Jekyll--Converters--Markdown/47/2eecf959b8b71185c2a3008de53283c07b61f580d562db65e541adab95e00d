@@ -1,0 +1,77 @@
+I"<style>
+    /* Style for the grid container */
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* Style for individual cards */
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Style for the button/link */
+    .github-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .card-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<div class="card-grid">
+        <div class="card">
+            <h2>Title 1</h2>
+            <p>Description 1</p>
+            <a href="https://github.com/yourgithubusername" class="github-button">GitHub</a>
+        </div>
+        <div class="card">
+            <h2>Title 2</h2>
+            <p>Description 2</p>
+            <a href="https://github.com/yourgithubusername" class="github-button">GitHub</a>
+        </div>
+        <div class="card">
+            <h2>Title 3</h2>
+            <p>Description 3</p>
+            <a href="https://github.com/yourgithubusername" class="github-button">GitHub</a>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+
+<h2 id="projects">Projects</h2>
+
+<p>Over the years I’ve worked on several different projects and am currently working on a few as well. Here’s a list with some summaries.</p>
+
+<h4 id="uct"><span style="color:rgba(61, 151, 230, 0.916)"><strong>UCT</strong></span></h4>
+
+<p>The project I spent the most time on is the  <strong>United Computing Tournament</strong> (UCT). UCT is an organisation based in Ottawa which hosts computing contests but in a different format than other contests (such as USACO and CCC). You can learn more at <a href="https://theuct.ca">our website</a>.</p>
+
+<p>I worked primarily on the backend, which we wrote in Go, and also helped out with the frontend using Tailwind.</p>
+
+<p>####</p>
+
+<h3 id="stock-dashboard--prediction">Stock Dashboard &amp; Prediction</h3>
+<p>A personalized dashboard for stock/profit tracking with a long short term memory algorithm component to predict the future of any stock written purely in Python. Submitted as a summative for ICS3U.</p>
+
+<h3 id="medicpad">Medicpad</h3>
+<p>Prototype of a web application to increase efficiency between doctors and patients and optimize the health care process. QR code system to easily transfer data between doctors and patients with various tracking tools for patient insight. <strong>3rd place</strong> at Queen’s University School of Computing Hackathon 2022.</p>
+
+<h3 id="competitive-programming">Competitive Programming</h3>
+
+<p><a href="https://github.com/muwasifk/stock-dashboard-prediction"><img src="https://gh-card.dev/repos/muwasifk/stock-dashboard-prediction.svg" alt="muwasifk/stock-dashboard-prediction - GitHub" /></a></p>
+:ET
